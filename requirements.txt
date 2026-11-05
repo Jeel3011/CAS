@@ -1,0 +1,10 @@
+numpy>=1.24
+scipy>=1.11
+opencv-contrib-python>=4.9
+matplotlib>=3.7
+pyyaml>=6.0
+pandas>=2.0
+tqdm>=4.65
+open3d>=0.18; platform_system != "Windows" or python_version < "3.12"
+# Optional, for M6 factor-graph optimization:
+# gtsam>=4.2

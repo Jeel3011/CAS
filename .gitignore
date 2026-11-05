@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Data (keep structure, not bulk)
+data/raw/*/
+data/processed/*/
+data/calibration/frames/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/calibration/.gitkeep
+
+# Results
+results/*/
+!results/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Generated marker PDFs
+data/markers.pdf
+data/markers/*.png
